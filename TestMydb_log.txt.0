@@ -1,10 +1,10 @@
-февр. 02, 2022 7:08:14 PM mydb1.Mydb1 Mydb1Create
+февр. 02, 2022 8:46:28 PM mydb1.Mydb1 Mydb1Create
 SEVERE: Exception: 
-java.sql.SQLSyntaxErrorException: Table 'publishers' already exists
+java.sql.SQLSyntaxErrorException: Table 'booksauthors' already exists
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
 	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
 	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
 	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
-	at mydb1.Mydb1.Mydb1Create(TestMydb1.java:51)
-	at mydb1.TestMydb1.main(TestMydb1.java:25)
+	at mydb1.Mydb1.Mydb1Create(TestMydb1.java:49)
+	at mydb1.TestMydb1.main(TestMydb1.java:23)
 

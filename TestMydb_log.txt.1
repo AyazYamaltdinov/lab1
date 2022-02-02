@@ -1,0 +1,23 @@
+февр. 02, 2022 8:46:22 PM mydb1.Mydb1 Mydb1Create
+SEVERE: Exception: 
+java.sql.SQLSyntaxErrorException: Table 'books' already exists
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:768)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at mydb1.Mydb1.Mydb1Create(TestMydb1.java:49)
+	at mydb1.TestMydb1.main(TestMydb1.java:23)
+
+февр. 02, 2022 8:46:23 PM mydb1.Mydb1 Mydb1Create
+SEVERE: Exception: 
+java.sql.SQLException: Can not issue empty query.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.checkNullOrEmptyQuery(StatementImpl.java:388)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:662)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:653)
+	at mydb1.Mydb1.Mydb1Create(TestMydb1.java:49)
+	at mydb1.TestMydb1.main(TestMydb1.java:23)
+

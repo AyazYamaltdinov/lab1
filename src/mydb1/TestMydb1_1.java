@@ -26,8 +26,7 @@ public class TestMydb1_1 {
             System.err.println("Error logger configuration: " + e.toString());
         }
         Mydb1_1 sample = new Mydb1_1();
-        sample.Mydb1_1Create();
-        
+        sample.Mydb1_1Create();        
     }
 }
 class Mydb1_1{
@@ -40,7 +39,7 @@ class Mydb1_1{
         str[1] = "select * from Books";
         str[2] = "select * from BooksAuthors";
         str[3] = "select * from Publishers";
-        String line = str[3];
+        String line = str[2];
         try(Connection conn = new Connect().getConnection();
             Statement stat = conn.createStatement())
         {
@@ -86,8 +85,7 @@ class Mydb1_1{
             data.add(vector);
         }
         return new DefaultTableModel(data,columnNames);
-    }   
-  
+    }     
 }
 class FrameTable extends JFrame
   {
