@@ -15,24 +15,28 @@ public class TestMydb1 {
         try
         {
             LogManager.getLogManager().readConfiguration(
-            TestMydb1.class.getResourceAsStream("../log/logging.propertiess"));
+            TestMydb1.class.getResourceAsStream("../log/logging.properties"));
         }catch(IOException e)
         {
             System.err.println("Error logger configuration: " + e.toString());
         }
+        
+        
         int updateCount = new Mydb1().Mydb1Create();
         JOptionPane.showMessageDialog(null,"Добавлено строк"+ updateCount);
     }
+}
 class Mydb1{
     private static Logger log = Logger.getLogger(Mydb1.class.getName());
-    public int Mydb0Create(){
+    public  int Mydb1Create()
+    {
         int updateCount=0;
         String[] str = new String[4];
         str[0] = "src/StatSQL/Authors.sql";
         str[1] = "src/StatSQL/Books.sql";
         str[2] = "src/StatSQL/BooksAuthors.sql";
         str[3] = "src/StatSQL/Publishers.sql";
-        try(Scanner in = new Scanner(Paths.get(str[0]),"UTF-8"))
+        try(Scanner in = new Scanner(Paths.get(str[3]),"UTF-8"))
         {
             try(Connection conn = new Connect().getConnection();
                 Statement stat = conn.createStatement())

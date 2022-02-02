@@ -1,0 +1,8 @@
+CREATE TABLE Authors (Author_Id CHAR(4), Name CHAR(25), URL CHAR(80))
+INSERT INTO Authors VALUES ('ARON', 'Aronson, Larry', 'www.interport.net/~laronson/Homepage.html')
+INSERT INTO Authors VALUES ('ARPA', 'Arpajian, Scott', '')
+INSERT INTO Authors VALUES ('BEBA', 'Bebak, Arthur', 'db.www.idgbooks.com/database/book/isbn/about-author.tmpl?query=1-56884-645-2')
+INSERT INTO Authors VALUES ('BRAN', 'Brandon, Bill', '')
+INSERT INTO Authors VALUES ('BROW', 'Brown, Mark', '')
+INSERT INTO Authors VALUES ('CAST', 'Castro, Elizabeth', 'www.peachpit.com/peachpit/meetus/authors/elizabeth.castro.html')
+INSERT INTO Authors VALUES ('CEAR', 'Cearly, Kent', '')

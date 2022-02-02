@@ -1,0 +1,6 @@
+CREATE TABLE Publishers (Publisher_Id CHAR(5), Name CHAR(30), URL CHAR(80))
+INSERT INTO Publishers VALUES ('01262', 'Academic Press', 'www.apnet.com/')
+INSERT INTO Publishers VALUES ('18835', 'Coriolis', 'www.coriolis.com/')
+INSERT INTO Publishers VALUES ('18879', 'Franklin, Beedle & Associates', 'www.fbeedle.com/')
+INSERT INTO Publishers VALUES ('15688', 'IDG Books', 'www.idgbooks.com/')
+INSERT INTO Publishers VALUES ('05345', 'Integrated Media Group', 'www.thomson.com/rcenters/img/img.html')
